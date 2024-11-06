@@ -3,7 +3,7 @@ import EditingModal from '../EditingModal';
 import { useState, useRef } from 'react';
 import swal from 'sweetalert';
 
-function NotesContainer({ className, setNotes, notes, onOverlay }) {
+function NotesContainer({ className, setNotes, notes }) {
   const [isOpen, setIsOpen] = useState(false);
   const values = useRef({});
   function handleNote(id, work) {

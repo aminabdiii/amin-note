@@ -28,7 +28,7 @@ function App() {
         </Title>
         {notes.length ? (
           <NotesContainer
-            className="grid grid-cols-3 gap-5 max-lg:grid-cols-2 max-550:grid-cols-1 px-6"
+            className="grid grid-cols-3 gap-5 max-lg:grid-cols-2 max-550:grid-cols-1 px-6 mb-20"
             setNotes={setNotes}
             notes={notes}
             onOverlay={handleOverlay}

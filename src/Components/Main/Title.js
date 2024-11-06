@@ -1,6 +1,4 @@
 import swal from 'sweetalert';
-import Swal from 'sweetalert2';
-import '../../dubdev.css';
 
 function Title({ children, setNotes, onOverlay, notes }) {
   function handleCheckAll() {

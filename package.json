@@ -6,13 +6,11 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^11.12.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,5 +40,11 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.7"
+  },
+  "overrides": {
+    "nth-check": "^2.0.1",
+    "css-select": "^4.1.1",
+    "resolve-url-loader": "^4.0.0",
+    "postcss": "^8.4.31"
   }
 }
